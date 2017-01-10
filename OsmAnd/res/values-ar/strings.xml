@@ -408,7 +408,7 @@
     <string name="local_index_tile_data_name">معلومات التّجانب: %1$s</string>
     <string name="edit_tilesource_successfully">حُفِظ المصدر التّجانبي %1$s بنجاح</string>
     <string name="use_compass_navigation_descr">استخدم البوصلة عندما لا تكون هناك أي وجهة محددة</string>
-	<string name="auto_zoom_map_descr">لائم تقريب الخريطة وفقا لسرعتك (بينما تتزامن الخريطة مع الموقع الحالي)</string>
+	<string name="auto_zoom_map_descr">ملائمة تقريب الخريطة وفقا لسرعتك (هذا بينما تتزامن الخريطة مع الموقع الحالي)</string>
 	<string name="auto_zoom_map">تقريب الخريطة تلقائيًا</string>
 	<string name="snap_to_road_descr">ألصق الموقع إلى الشوارع أثناء الملاحة</string>
 	<string name="snap_to_road">الالتصاق بالطريق</string>
@@ -546,7 +546,7 @@
 	<string name="index_name_oceania">أستراليا و أوقيانوسيا</string>
 	
 	<string name="routing_settings">الملاحة</string>
-	<string name="routing_settings_descr">تحديد الخيارات للإبحار</string>
+	<string name="routing_settings_descr">حدد خيارات الملاحة</string>
 	<string name="index_settings">إدارة بيانات الخرائط</string>
 	<string name="general_settings">عام</string>
 	<string name="general_settings_descr">ضبط العرض والإعدادات العامة للتطبيق</string>
@@ -624,7 +624,7 @@
 	<string name="auto_announce_off">إيقاف الإخطار التلقائي</string>
 	<string name="auto_announce_on">تفعيل الإخطار التلقائي</string>
 	<string name="route_is_too_long">من المحتمل أن الطريق طويلة جدا قد لا يتمكن جهاز توجيه OsmAnd من حساب المسافة إلا بعد وضع نقطة وصل واحدة أو أكثر ↵ → متوسط طول المسافة المحتسب هو 200 كيلو متر تقريبًا. لذلك يرجى إضافة نقطة وصل أو أكثر على طول الطريق حتى يتمكن الجهاز من حساب طول مسافة الطريق.</string>
-	<string name="audionotes_location_not_defined">لم يتم ربط الملاحظة بأي موقع. إضغط على \"استخدم المكان …\" لترفق مكانا ما بملاحظة</string>
+	<string name="audionotes_location_not_defined">لم يتم ربط الملاحظة بأي موقع. إضغط على \"استخدام المكان …\" لترفق ملاحظة بالمكان المحدد.</string>
 	<string name="animate_routing_route_not_calculated">الرجاء، احتسب المسار أولا</string>
     <string name="animate_routing_route">حاكي باستخدام المسار المحتسب </string>
     <string name="animate_routing_gpx">حاكي باستخدام مسار GPX</string>
@@ -887,8 +887,8 @@ OsmAnd هو المصدر المفتوح و التي يجري تطويرها بن
 	<string name="use_transparent_map_theme">السمة الشفافة</string>
 	<string name="native_library_not_supported">المكتبات الأصيلة غير مدعومة على هذا الجهاز.</string>
 	<string name="init_native_library">تهيئة المكتبة الأصيلة…</string>
-	<string name="choose_auto_follow_route">عرض خريطة في المنتصف تلقائيًا</string>
-	<string name="choose_auto_follow_route_descr">الوقت حتى يتزامن عرض الخريطة مع الموقع الحالي</string>
+	<string name="choose_auto_follow_route">إعرض وجه الخريطة في المنتصف تلقائيًا</string>
+	<string name="choose_auto_follow_route_descr">المدة اللازمة ليتزامن عرض الخريطة مع الموقع الحالي</string>
 	
 	<string name="auto_follow_route_navigation">مركز صناعة السيارات الوحيد</string>
 	<string name="auto_follow_route_navigation_descr">التوسيط التلقائي لعرض الخريطة فقط أثناء الملاحة.</string>
@@ -1486,10 +1486,10 @@ OsmAnd هو المصدر المفتوح و التي يجري تطويرها بن
 	<string name="parking_place">مكان للركن</string>
     <string name="version_settings_descr">تحميل الإصدارات اليومية</string>
     <string name="version_settings">إصدرات</string>
-    <string name="speak_pedestrian">معابر المشاة</string>
-    <string name="traffic_warning_pedestrian">معابر المشاة</string>
+    <string name="speak_pedestrian">ممرات الراجلين</string>
+    <string name="traffic_warning_pedestrian">ممرات الراجلين</string>
 	<string name="show_railway_warnings">تقاطعات القطارات</string>
-	<string name="show_pedestrian_warnings">معابر المشاة</string>
+	<string name="show_pedestrian_warnings">ممرات الراجلين</string>
     <string name="navigate_point_easting">تشريق</string>
     <string name="error_avoid_specific_road">لا يوجد منفذ للتجاوز</string>
     <string name="rendering_attr_tramTrainRoutes_name">سكك القطارات والترام</string>
@@ -1602,7 +1602,7 @@ OsmAnd هو المصدر المفتوح و التي يجري تطويرها بن
 	<string name="arrival_distance_factor_early">مبكر</string>
     <string name="arrival_distance_factor_normally">طبيعي</string>
     <string name="arrival_distance_factor_late">متأخر</string>
-    <string name="arrival_distance_factor_at_last">في آخر أمتار</string>
+    <string name="arrival_distance_factor_at_last">في الأمتار الأخيرة</string>
     <string name="index_name_netherlands">أوربا - هولندا</string>
 	<string name="keep_informing">إعادة تعليمات الملاحة</string>
 	<string name="shared_string_release">تم</string>
@@ -1618,7 +1618,7 @@ OsmAnd هو المصدر المفتوح و التي يجري تطويرها بن
 	<string name="follow">بدء الملاحة</string>
 	<string name="only_show">عرض الطريق</string>
 	<string name="address">عنوان</string>
-	<string name="router_service">خدمة ملاحة</string>
+	<string name="router_service">خدمة الملاحة</string>
 	<string name="uploading">جاري الرفع…</string>
 	<string name="search_history_city">مدينة: {0}</string>
 	<string name="transport">نقل</string>
@@ -1688,7 +1688,7 @@ OsmAnd هو المصدر المفتوح و التي يجري تطويرها بن
 	<string name="searching">جاري البحث…</string>
 	<string name="search_online_address">بحث على الإنترنت</string>
 	<string name="search_offline_address">بحث بدون اتصال</string>
-	<string name="router_service_descr">اختر خدمة ملاحة عبر أو بدون ربط بالانترنت</string>
+	<string name="router_service_descr">اختر خدمة ملاحة عبر أو بدون ربط بالإنترنت</string>
 	<string name="sd_dir_not_accessible">لا يمكن الوصول لمجلد تخزين البيانات على الذاكرة!</string>
 	<string name="mark_final_location_first">فضلا قم بتحديد الوجهة أولا</string>
 	<string name="downloading_list_indexes">جاري تحميل قائمة المناطق المتاحة…</string>
@@ -1919,7 +1919,7 @@ OsmAnd هو المصدر المفتوح و التي يجري تطويرها بن
     <string name="begin_with_osmand_menu_group">الخطوات الأولى مع أوسماند OSMAnd</string>
     <string name="features_menu_group">ميزات</string>
     <string name="help_us_to_improve_menu_group">ساعدنا على تحسين أوسماند OSMAnd</string>
-    <string name="first_usage_item">الاستخدام الأول</string>
+    <string name="first_usage_item">أول استخدام</string>
     <string name="first_usage_item_description">كيفية تحميل الخرائط وتعيين الإعدادات الأساسية</string>
     <string name="planning_trip_item">التخطيط لرحلة</string>
     <string name="faq_item">الأسئلة المتداولة</string>
@@ -2638,7 +2638,7 @@ OsmAnd هو المصدر المفتوح و التي يجري تطويرها بن
           إذا كنت ترغب بالقيام بـ / تصحيح ترجمة الإنجليزية تأكد من أن:
           3. كل السلاسل أو السترينجز المنشأة/المعدلة  التي تم إنشاؤها متواجدة في الجزء العلوي من الملف (لتسهيل ايجاد ما هو مترجم).
      من فضلك: إلقاء نظرة على http://code.google.com/p/osmand/wiki/UIConsistency، قد تحسن من عملك وعملنا :-) شكرا - هاردي"</string>
-    <string name="show_legacy_search">إظهار بحث قديم</string>
+    <string name="show_legacy_search">إظهار طريقة البحث القديمة</string>
     <string name="show_legacy_search_desc">تفعيل البحث القديم في قائمة الدرج</string>
     <string name="routing_attr_allow_motorway_name">الطريق السريع مسموح</string>
     <string name="routing_attr_allow_motorway_description">الطريق السريع مسموح</string>
@@ -2658,7 +2658,7 @@ OsmAnd هو المصدر المفتوح و التي يجري تطويرها بن
 
     <string name="quick_action_item_action">إجراء %d</string>
     <string name="quick_action_item_screen">شاشة %d</string>
-    <string name="quick_action_add_marker">إضافة علامة</string>
+    <string name="quick_action_add_marker">إضافة علامة خريطة</string>
     <string name="quick_action_add_poi">إضافة POI</string>
     <string name="quick_action_map_style">تغيير نمط الخريطة</string>
     <string name="quick_action_map_style_switch">تم تغيير نمط الخريطة إلى \"%s\".</string>
@@ -2667,7 +2667,7 @@ OsmAnd هو المصدر المفتوح و التي يجري تطويرها بن
     <string name="quick_action_take_photo_note">أخذ ملاحظة بالصورة</string>
     <string name="quick_action_navigation_voice">تشغيل/إيقاف الصوت</string>
     <string name="quick_action_navigation_voice_off">الصوت معطل</string>
-    <string name="quick_action_navigation_voice_on">صوت مشغل</string>
+    <string name="quick_action_navigation_voice_on">الصوت مشغل</string>
     <string name="quick_action_add_gpx">إضافة إحداثية GPX</string>
     <string name="quick_action_add_parking">إضافة مكان ركن</string>
     <string name="quick_action_new_action">إضافة إجراء</string>
@@ -2676,5 +2676,43 @@ OsmAnd هو المصدر المفتوح و التي يجري تطويرها بن
     <string name="dialog_add_action_title">إضافة إجراء</string>
     <string name="quick_actions_delete">حذف إجراء</string>
     <string name="quick_actions_delete_text">هل أنت متأكد من أنك تريد حذف إجراء \"%s\" ؟</string>
-    <string name="quick_action_name_hint">اسم الإجراء</string>
+    <string name="shared_string_action_name">اسم الإجراء</string>
+    <string name="quick_action_add_osm_bug">أضف خطاءا إلى OSM</string>
+    <string name="quick_favorites_show_favorites_dialog">إظهار مربع حوار الأماكن المفضلة</string>
+    <string name="quick_action_add_marker_descr">النقر على زر الإجراء سيقوم بإضافة علامة على الموقع المحدد وسط الشاشة.</string>
+    <string name="quick_action_take_video_note_descr">النقر على زر الإجراء سيقوم بإضافة ملاحظة فيديو على الموقع المحدد.</string>
+    <string name="quick_favorites_name_preset">اسم الإعداد المسبق</string>
+    <string name="quick_action_add_gpx_descr">النقر على زر الإجراء سيضيف وجهة GPX على الموقع وسط الشاشة.</string>
+    <string name="quick_action_take_audio_note_descr">النقر على زر الإجراء سيضيف ملاحظة صوتية وسط مركز الشاشة.</string>
+    <string name="quick_action_take_photo_note_descr">النقر على زر الإجراء سيضيف ملاحظة بالصورة وسط مركز الشاشة.</string>
+    <string name="quick_action_add_osm_bug_descr">النقر على زر الإجراء سيضيف ملاحظة صوتية بالموقع وسط الشاشة.</string>
+    <string name="quick_action_add_poi_descr">النقر على زر الإجراء سيضيف POI بالموقع وسط الشاشة.</string>
+    <string name="quick_action_navigation_voice_descr">النقر على زر الإجراء سيعطل أو يفعل التوجيه الصوتي أثناء التنقل.</string>
+    <string name="quick_action_add_parking_descr">النقر على زر الإجراء سيضيف مكان للركن بالموقع وسط الشاشة.</string>
+    <string name="quick_action_interim_dialog">إظهار مربع حوار مؤقتاً</string>
+    <string name="favorite_autofill_toast_text">" حفظ إلى "</string>
+    <string name="favorite_empty_place_name">مكان</string>
+    <string name="quick_action_showhide_favorites_title">إظهار/إخفاء المفضلة</string>
+    <string name="quick_action_favorites_show">إظهار المفضلة</string>
+    <string name="quick_action_favorites_hide">إخفاء المفضلة</string>
+    <string name="quick_action_showhide_poi_title">إظهار/إخفاء POI</string>
+    <string name="quick_action_poi_show">إظهار %1$s</string>
+    <string name="quick_action_poi_hide">إخفاء %1$s</string>
+    <string name="quick_action_add_category">إضافة فئة</string>
+    <string name="quick_action_add_create_items">إنشاء عناصر</string>
+    <string name="quick_action_add_configure_map">تكوين خريطة</string>
+    <string name="quick_action_add_navigation">الملاحة</string>
+    <string name="quick_action_bug_message">رسالة</string>
+    <string name="quick_action_category_descr">حدد الفئة لحفظ المفضلة فيها</string>
+    <string name="quick_action_gpx_category_descr">حدد فئة اختيارية</string>
+    <string name="quick_action_poi_list">قائمة POI</string>
+    <string name="quick_action_map_style_action">إضافة نمط خريطة</string>
+    <string name="quick_action_empty_param_error">المعلمات يجب أن لا تكون فارغاة</string>
+    <string name="quick_action_map_styles">أنماط الخريطة</string>
+    <string name="quick_action_map_overlay">تغيير واجهة الخريطة</string>
+    <string name="quick_action_map_source">تغيير مصدر الخريطة</string>
+    <string name="quick_action_map_source_title">مصادر الخريطة</string>
+    <string name="quick_action_map_source_action">إضافة مصدر خريطة</string>
+    <string name="quick_action_map_source_switch">تم تغيير مصدر الخريطة إلى \"%s\".</string>
+    <string name="quick_action_btn_tutorial_title">تغيير موضع الزر</string>
     </resources>

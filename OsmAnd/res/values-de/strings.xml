@@ -1004,7 +1004,7 @@ Karten-Kacheln können direkt online bezogen werden, und werden im OsmAnd-Untero
 
 Parkplatz und Restzeit werden sowohl auf dem OsmAnd Dashboard wie auch auf dem Kartenbildschirm dargestellt. Es kann ein Eintrag im Android Kalender als Erinnerung hinzugefügt werden.</string>
 	<string name="osmand_parking_plugin_name">Parkplatz-Standort</string>
-	<string name="context_menu_item_add_parking_point">Parkplatzstandort festlegen</string>
+	<string name="context_menu_item_add_parking_point">Parkposition festlegen</string>
 	<string name="context_menu_item_delete_parking_point">Parkplatz-Standort löschen</string>
 	<string name="gpxup_public">Öffentlich</string>
 	<string name="gpxup_identifiable">Erkennbar</string>
@@ -1163,7 +1163,7 @@ Die globalen Daten (zwischen N 70° und S 70°) basieren auf Messungen von SRTM 
 	<string name="map_widget_audionotes">Audio-Notiz</string>
 	<string name="audionotes_plugin_description">Das Audio/Video-Notiz-Plugin ermöglicht unterwegs die Aufnahme von ortsbezogenen Audio-/Fotografie-/Video-Notizen, entweder über eine Schaltfläche auf dem Kartenbildschirm, oder direkt im Kontext-Menü einer beliebigen Position auf der Karte.</string>
 	<string name="audionotes_plugin_name">Audio/Video-Notizen</string>
-	<string name="audionotes_location_not_defined">Ein Ort, der mit der Notiz verbunden wird, wurde nicht angegeben. Benutzen Sie \'Verwende Position…\', um der Notiz einen Ort zuzuweisen</string>
+	<string name="audionotes_location_not_defined">Ein Ort, der mit der Notiz verbunden wird, wurde nicht angegeben. Benutzen Sie \'Verwende Position…\', um der Notiz einen Ort zuzuweisen.</string>
 	<string name="osmand_srtm_long_description_1000_chars">"Dieses Plugin beinhaltet Höhenlinien und Relief-Schattierungen, die als Ergänzung zu den Standard Offline-Karten von OsmAnd angezeigt werden können. Diese Funktionalität ist vor allem für Sportler, sowie Wanderer, Radfahrer, Trekker und jeden interessant, der sich für die Relief-Struktur von Landschaften interessiert.
 
 Die globalen Daten (zwischen N 70° und S 70°) basieren auf Messungen von SRTM (Shuttle Radar Topography Mission) und ASTER (Advanced Spaceborne Thermal Emission and Reflection Radiometer), einem bildgebenden System des Satelliten Terra, dem Flaggschiff des NASA-Erd-Beobachtungsprogramms. ASTER ist der Erfolg der Zusammenarbeit zwischen der NASA, dem japanischen Ministerium für Wirtschaft, Handel und Industrie (METI) und dem japanischen Raumfahrtsprogramm (J-spacesystems).
@@ -1755,7 +1755,7 @@ Aufgenommene Tracks kann man z.B. mit Bekannten teilen, oder auch zum Upload fü
     <string name="local_index_description">Ein Element antippen, um mehr Details zu erfahren oder antippen und halten zum Deaktivieren oder Löschen. Aktuell auf dem Gerät vorhandene Daten (%1$s frei):</string>
 	<string name="text_size_descr">Karten-Schriftgröße festlegen</string>
     <string name="text_size">Schriftgröße</string>
-    <string name="fav_point_dublicate">Doppelung beim Favoriten-Namen</string>
+    <string name="fav_point_dublicate">Doppelung beim Favoritennamen</string>
     <string name="fav_point_dublicate_message">Der angegebene Favoritenname wird bereits verwendet, und wird auf %1$s geändert.</string>
     <string name="fav_point_emoticons_message">Der Name des Favoriten wurde auf %1$s geändert, denn Zeichenketten mit Emoticons können nicht gespeichert werden.</string>
     <string name="print_route">Route drucken</string>
@@ -2166,7 +2166,7 @@ Lon %2$s</string>
     <string name="faq_item">FAQ</string>
     <string name="faq_item_description">Häufige Fragen</string>
     <string name="map_viewing_item">Kartenansicht</string>
-    <string name="search_on_the_map_item">Karten-Suche</string>
+    <string name="search_on_the_map_item">Suche in der Karte</string>
     <string name="instalation_troubleshooting_item">Installation und Problembehebung</string>
     <string name="techical_articles_item">Technische Themen</string>
     <string name="versions_item">Versionen</string>
@@ -2604,7 +2604,7 @@ und vieles mehr ...
     <string name="rendering_attr_hideWaterPolygons_name">Wasserflächen ausblenden</string>
     <string name="quick_action_item_action">Aktion %d</string>
     <string name="quick_action_item_screen">Bildschirm %d</string>
-    <string name="quick_action_add_marker">Marker hinzufügen</string>
+    <string name="quick_action_add_marker">Kartenmarker hinzufügen</string>
     <string name="quick_action_add_poi">POI hinzufügen</string>
     <string name="quick_action_map_style">Kartendarstellung ändern</string>
     <string name="quick_action_map_style_switch">Kartendarstellung wurde zu “%s“ gewechselt.</string>
@@ -2616,21 +2616,70 @@ und vieles mehr ...
     <string name="quick_action_navigation_voice_off">Sprachausgabe ist aus</string>
     <string name="quick_action_navigation_voice_on">Sprachausgabe ist an</string>
     <string name="quick_action_add_gpx">GPX-Wegpunkt einfügen</string>
-    <string name="quick_action_add_parking">Parkplatzstandort hinzufügt</string>
+    <string name="quick_action_add_parking">Parkposition festlegen</string>
     <string name="quick_action_new_action">Aktion hinzufügen</string>
     <string name="quick_action_edit_action">Aktion bearbeiten</string>
-    <string name="quick_action_add_favorite">Favorite hinzufügen</string>
+    <string name="quick_action_add_favorite">Favorit hinzufügen</string>
     <string name="dialog_add_action_title">Aktion hinzufügen</string>
     <string name="quick_actions_delete">Aktion löschen</string>
-    <string name="quick_actions_delete_text">Sind Sie sicher, dass Sie Aktion \"%s\" löschen möchten?</string>
+    <string name="quick_actions_delete_text">Sind Sie sicher, dass Sie die Aktion \"%s\" löschen möchten?</string>
     <string name="quick_favorites_show_favorites_dialog">Favoriten Dialog anzeigen</string>
     <string name="quick_favorites_name_preset">Name Voreinstellen</string>
-    <string name="quick_action_name_hint">Aktionsname</string>
-    <string name="quick_action_add_marker_descr">Tippen auf die Aktion wird einen Marker an der angegebenen Position setzten.</string>
-    <string name="quick_action_favorite_dialog">Favoriten Dialog anzeigen</string>
+    <string name="shared_string_action_name">Aktionsname</string>
+    <string name="quick_action_add_marker_descr">Drücken der Schaltfläche für Schnellaktion fügt einen Kartenmarker am Bildschirmmittelpunkt ein.</string>
     <string name="favorite_empty_place_name">Ort</string>
-    <string name="quick_action_showhide_favorites_title">Zeige/Verberge Favoriten</string>
-    <string name="quick_action_take_audio_note_descr">Ein Tipp auf die Aktion, fügt eine Audionachricht zur angegebenen Position hinzu.</string>
-    <string name="quick_action_take_video_note_descr">Ein Tipp auf die Aktion, fügt eine Videonachricht zur angegebenen Position hinzu.</string>
-    <string name="quick_action_take_photo_note_descr">Ein Tipp auf die Aktion fügt ein Foto der angegebenen Position hinzu.</string>
+    <string name="quick_action_showhide_favorites_title">Favoriten zeigen/verbergen</string>
+    <string name="quick_action_take_audio_note_descr">Drücken der Schaltfläche für Schnellaktion fügt eine Audionachricht am Bildschirmmittelpunkt ein.</string>
+    <string name="quick_action_take_video_note_descr">Drücken der Schaltfläche für Schnellaktion fügt eine Videonachricht am Bildschirmmittelpunkt ein.</string>
+    <string name="quick_action_take_photo_note_descr">Drücken der Schaltfläche für Schnellaktion fügt ein Foto am Bildschirmmittelpunkt ein.</string>
+    <string name="quick_action_showhide_poi_title">POI anzeigen/verbergen</string>
+    <string name="quick_action_poi_show">%1$s anzeigen</string>
+    <string name="quick_action_poi_hide">%1$s ausblenden</string>
+    <string name="quick_action_add_category">Kategorie hinzufügen</string>
+    <string name="quick_action_add_configure_map">Karte konfigurieren</string>
+    <string name="quick_action_add_navigation">Navigation</string>
+    <string name="quick_action_fav_name_descr">Lassen Sie das Feld leer um automatisch die Adresse oder den Namen des Ortes zu verwenden</string>
+    <string name="quick_action_bug_message">Nachricht</string>
+    <string name="quick_action_poi_list">POI-Liste</string>
+    <string name="quick_action_sh_poi_descr">Sie können eine oder mehrere POI-Kategorien hinzufügen um diese auf der Karte anzuzeigen.</string>
+    <string name="quick_action_map_style_action">Kartenstil hinzufügen</string>
+    <string name="quick_action_empty_param_error">Parameter darf nicht leer sein</string>
+    <string name="quick_action_map_styles">Kartenstile</string>
+    <string name="quick_action_map_overlay">Overlay-Karte ändern</string>
+    <string name="quick_action_map_overlay_title">Overlay-Karten</string>
+    <string name="quick_action_map_overlay_action">Overlay hinzufügen</string>
+    <string name="quick_action_map_underlay">Underlay-Karte hinzufügen</string>
+    <string name="quick_action_map_underlay_title">Underlay-Karten</string>
+    <string name="quick_action_map_underlay_action">Underlay hinzufügen</string>
+    <string name="quick_action_map_source">Kartenquelle ändern</string>
+    <string name="quick_action_map_source_title">Kartenquellen</string>
+    <string name="quick_action_map_source_action">Kartenquelle hinzufügen</string>
+    <string name="quick_action_map_source_switch">Die Kartenquelle wurde in \"%s\" geändert.</string>
+    <string name="quick_action_btn_tutorial_title">Position der Schaltfläche ändern</string>
+    <string name="quick_action_favorites_show">Favoriten anzeigen</string>
+    <string name="quick_action_favorites_hide">Favoriten ausblenden</string>
+    <string name="quick_action_category_descr">Wählen Sie eine Kategorie um den Favorit unter dieser zu speichern</string>
+    <string name="quick_action_gpx_category_descr">Wählen Sie eine optionale Kategorie</string>
+    <string name="configure_screen_quick_action">Schnellaktion</string>
+
+    <string name="quick_action_add_gpx_descr">Drücken der Schaltfläche für Schnellaktion fügt einen GPX Wegpunkt am Bildschirmmittelpunkt ein.</string>
+    <string name="quick_action_add_osm_bug_descr">Drücken der Schaltfläche für Schnellaktion fügt eine OSM Fehlermeldung am Bildschirmmittelpunkt ein.</string>
+    <string name="quick_action_add_poi_descr">Drücken der Schaltfläche für Schnellaktion fügt einen POI am Bildschirmmittelpunkt ein.</string>
+    <string name="quick_action_navigation_voice_descr">Drücken der Schaltfläche für Schnellaktion deaktiviert oder aktiviert die Sprachhinweise bei der Navigation.</string>
+    <string name="quick_action_add_parking_descr">Drücken der Schaltfläche für Schnellaktion fügt eine Parkposition am Bildschirmmittelpunkt ein.</string>
+    <string name="quick_action_interim_dialog">Dialog zum Bearbeiten zeigen</string>
+    <string name="favorite_autofill_toast_text">" wird gespeichert unter "</string>
+    <string name="quick_action_duplicates">Angegebener Schnellaktionsname schon in Verwendung, er wurde geändert in %1$s um ein Duplikat zu vermeiden.</string>
+    <string name="quick_action_duplicate">Schnellaktion Namensduplikat</string>
+    <string name="quick_action_showhide_favorites_descr">Drücken der Schaltfläche für Schnellaktion zeigt oder versteckt Favoriten auf der Karte.</string>
+    <string name="quick_action_showhide_poi_descr">Drücken der Schaltfläche für Schnellaktion zeigt oder versteckt POIs.</string>
+    <string name="quick_action_add_create_items">Objekte erstellen</string>
+    <string name="quick_action_bug_descr">Diese Nachricht wird im Kommentarfeld autovervollständigt.</string>
+    <string name="quick_action_map_style_descr">Drücken der Schaltfläche für Schnellaktion wechselt den Kartenstil.</string>
+    <string name="quick_action_map_overlay_descr">Drücken der Schaltfläche für Schnellaktion wechselt die Overlay-Karte.</string>
+    <string name="quick_action_map_underlay_descr">Drücken der Schaltfläche für Schnellaktion wechselt die Underlay-Karte.</string>
+    <string name="quick_action_map_source_descr">Drücken der Schaltfläche für Schnellaktion wechselt die Kartenquelle.</string>
+    <string name="quick_action_btn_tutorial_descr">Schaltfläche lange drücken und ziehen um die Position auf dem Bildschirm zu ändern</string>
+	<string name="quick_action_map_overlay_switch">Die Overlay-Karte wurde in “%s“ geändert.</string>
+    <string name="quick_action_map_underlay_switch">Die Underlay-Karte wurde in “%s“ geändert.</string>
     </resources>
